@@ -47,8 +47,6 @@
 
 ### Задание 3
 
-`Приведите ответ в свободной форме........`
-
 1. `Убрали права:`
     REVOKE INSERT, UPDATE, DELETE ON sakila.* FROM 'sys_temp'@'localhost';
     FLUSH PRIVILEGES;
