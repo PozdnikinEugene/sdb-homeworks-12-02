@@ -5,6 +5,7 @@ locals {
   }
 }
 
+
 # Создание ВМ для баз данных с использованием for_each
 resource "yandex_compute_instance" "db-vm" {
   for_each = local.db_vms_map

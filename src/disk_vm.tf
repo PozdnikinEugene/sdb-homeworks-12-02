@@ -12,6 +12,7 @@ resource "yandex_compute_disk" "storage_disk" {
   }
 }
 
+
 resource "yandex_compute_instance" "storage" {
   name        = "storage"
   platform_id = "standard-v1"
